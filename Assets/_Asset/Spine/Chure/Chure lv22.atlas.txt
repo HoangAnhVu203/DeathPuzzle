@@ -1,0 +1,531 @@
+
+Chure lv22.png
+size: 2465,2011
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: false
+  xy: 2225, 1200
+  size: 33, 30
+  orig: 35, 32
+  offset: 1, 1
+  index: -1
+MN_L
+  rotate: true
+  xy: 2449, 777
+  size: 18, 8
+  orig: 21, 12
+  offset: 1, 2
+  index: -1
+MN_R
+  rotate: true
+  xy: 2449, 777
+  size: 18, 8
+  orig: 21, 12
+  offset: 1, 2
+  index: -1
+MO_L
+  rotate: true
+  xy: 1621, 108
+  size: 66, 65
+  orig: 68, 67
+  offset: 1, 1
+  index: -1
+MO_R
+  rotate: true
+  xy: 1621, 39
+  size: 66, 65
+  orig: 68, 67
+  offset: 1, 1
+  index: -1
+arm_L
+  rotate: true
+  xy: 2288, 742
+  size: 53, 158
+  orig: 56, 280
+  offset: 2, 121
+  index: -1
+arm_L2
+  rotate: true
+  xy: 1057, 95
+  size: 40, 149
+  orig: 42, 151
+  offset: 1, 1
+  index: -1
+arm_R
+  rotate: false
+  xy: 625, 36
+  size: 51, 158
+  orig: 53, 160
+  offset: 1, 1
+  index: -1
+arm_R2
+  rotate: true
+  xy: 398, 3
+  size: 51, 147
+  orig: 53, 149
+  offset: 1, 1
+  index: -1
+bb kẹo
+  rotate: false
+  xy: 1343, 77
+  size: 110, 97
+  orig: 112, 99
+  offset: 1, 1
+  index: -1
+bb thuốc chuột
+  rotate: true
+  xy: 2366, 7
+  size: 110, 96
+  orig: 112, 98
+  offset: 1, 1
+  index: -1
+bom nổ
+  rotate: false
+  xy: 1798, 104
+  size: 424, 407
+  orig: 426, 409
+  offset: 1, 1
+  index: -1
+bát đồ ăn
+  rotate: false
+  xy: 930, 38
+  size: 124, 97
+  orig: 126, 99
+  offset: 1, 1
+  index: -1
+bè
+  rotate: true
+  xy: 967, 217
+  size: 411, 374
+  orig: 413, 376
+  offset: 1, 1
+  index: -1
+dt
+  rotate: true
+  xy: 2336, 120
+  size: 77, 118
+  orig: 79, 120
+  offset: 1, 1
+  index: -1
+dây thừng
+  rotate: false
+  xy: 2126, 1431
+  size: 330, 577
+  orig: 330, 577
+  offset: 0, 0
+  index: -1
+dây trói
+  rotate: false
+  xy: 1339, 7
+  size: 88, 67
+  orig: 90, 69
+  offset: 1, 1
+  index: -1
+eye
+  rotate: true
+  xy: 354, 3
+  size: 67, 41
+  orig: 69, 43
+  offset: 1, 1
+  index: -1
+face
+  rotate: true
+  xy: 2288, 1000
+  size: 200, 168
+  orig: 202, 170
+  offset: 1, 1
+  index: -1
+face cháy
+  rotate: true
+  xy: 2288, 798
+  size: 199, 168
+  orig: 201, 170
+  offset: 1, 1
+  index: -1
+flashlight
+  rotate: false
+  xy: 3, 631
+  size: 1377, 1377
+  orig: 1379, 1379
+  offset: 1, 1
+  index: -1
+giay_R
+  rotate: false
+  xy: 1941, 52
+  size: 132, 49
+  orig: 134, 51
+  offset: 1, 1
+  index: -1
+giày_L
+  rotate: true
+  xy: 1569, 41
+  size: 133, 49
+  orig: 135, 51
+  offset: 1, 1
+  index: -1
+hamburger
+  rotate: true
+  xy: 828, 31
+  size: 132, 99
+  orig: 135, 101
+  offset: 2, 1
+  index: -1
+hand
+  rotate: true
+  xy: 2336, 325
+  size: 127, 119
+  orig: 127, 119
+  offset: 0, 0
+  index: -1
+hand_L2
+  rotate: true
+  xy: 1853, 20
+  size: 81, 85
+  orig: 83, 88
+  offset: 1, 2
+  index: -1
+hand_R
+  rotate: false
+  xy: 2336, 200
+  size: 115, 122
+  orig: 115, 122
+  offset: 0, 0
+  index: -1
+hòn đá
+  rotate: false
+  xy: 3, 64
+  size: 208, 162
+  orig: 210, 164
+  offset: 1, 1
+  index: -1
+khoan
+  rotate: true
+  xy: 1798, 636
+  size: 557, 487
+  orig: 557, 487
+  offset: 0, 0
+  index: -1
+khẩu trang
+  rotate: false
+  xy: 1344, 177
+  size: 357, 257
+  orig: 359, 259
+  offset: 1, 1
+  index: -1
+le luoi
+  rotate: false
+  xy: 2396, 1235
+  size: 66, 40
+  orig: 69, 43
+  offset: 1, 1
+  index: -1
+leg_L
+  rotate: false
+  xy: 2283, 138
+  size: 50, 373
+  orig: 50, 373
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: true
+  xy: 413, 197
+  size: 46, 373
+  orig: 46, 373
+  offset: 0, 0
+  index: -1
+longmay1
+  rotate: false
+  xy: 2364, 1203
+  size: 81, 27
+  orig: 83, 29
+  offset: 1, 1
+  index: -1
+longmay2
+  rotate: false
+  xy: 2261, 1203
+  size: 100, 27
+  orig: 102, 30
+  offset: 1, 2
+  index: -1
+longmay3
+  rotate: false
+  xy: 2126, 1199
+  size: 96, 31
+  orig: 98, 33
+  offset: 1, 1
+  index: -1
+mat x
+  rotate: false
+  xy: 1753, 20
+  size: 97, 81
+  orig: 99, 83
+  offset: 1, 1
+  index: -1
+mat3
+  rotate: false
+  xy: 2225, 13
+  size: 138, 104
+  orig: 140, 106
+  offset: 1, 1
+  index: -1
+mat4
+  rotate: false
+  xy: 1456, 19
+  size: 105, 62
+  orig: 107, 95
+  offset: 1, 32
+  index: -1
+mat5
+  rotate: false
+  xy: 2288, 639
+  size: 131, 100
+  orig: 133, 102
+  offset: 1, 1
+  index: -1
+mat6
+  rotate: false
+  xy: 1057, 6
+  size: 121, 86
+  orig: 123, 88
+  offset: 1, 1
+  index: -1
+mieng 7
+  rotate: false
+  xy: 2076, 52
+  size: 116, 49
+  orig: 117, 50
+  offset: 0, 1
+  index: -1
+mieng 8
+  rotate: true
+  xy: 2422, 648
+  size: 91, 40
+  orig: 92, 40
+  offset: 0, 0
+  index: -1
+mieng1
+  rotate: true
+  xy: 354, 149
+  size: 77, 54
+  orig: 79, 57
+  offset: 1, 2
+  index: -1
+mieng2
+  rotate: false
+  xy: 1209, 45
+  size: 127, 65
+  orig: 129, 67
+  offset: 1, 1
+  index: -1
+mieng3
+  rotate: true
+  xy: 762, 82
+  size: 97, 63
+  orig: 99, 65
+  offset: 1, 1
+  index: -1
+mieng4
+  rotate: true
+  xy: 1689, 18
+  size: 117, 61
+  orig: 120, 63
+  offset: 1, 1
+  index: -1
+mieng5
+  rotate: false
+  xy: 1941, 5
+  size: 80, 44
+  orig: 82, 46
+  offset: 1, 1
+  index: -1
+mieng6
+  rotate: true
+  xy: 789, 182
+  size: 61, 24
+  orig: 63, 26
+  offset: 1, 1
+  index: -1
+miengcuoi2
+  rotate: false
+  xy: 679, 8
+  size: 78, 52
+  orig: 81, 54
+  offset: 1, 1
+  index: -1
+miệng
+  rotate: true
+  xy: 1344, 568
+  size: 60, 21
+  orig: 62, 23
+  offset: 2, 2
+  index: -1
+miệng ngậm
+  rotate: false
+  xy: 548, 33
+  size: 63, 21
+  orig: 66, 23
+  offset: 2, 1
+  index: -1
+miệng nhai
+  rotate: false
+  xy: 1240, 113
+  size: 100, 101
+  orig: 102, 103
+  offset: 1, 1
+  index: -1
+miệng phồng
+  rotate: true
+  xy: 2396, 1357
+  size: 71, 66
+  orig: 73, 69
+  offset: 1, 1
+  index: -1
+mohoi
+  rotate: false
+  xy: 178, 15
+  size: 18, 46
+  orig: 20, 48
+  offset: 1, 1
+  index: -1
+mohoi1
+  rotate: true
+  xy: 679, 63
+  size: 131, 80
+  orig: 134, 82
+  offset: 1, 1
+  index: -1
+mũi
+  rotate: false
+  xy: 2448, 1217
+  size: 14, 15
+  orig: 16, 17
+  offset: 1, 1
+  index: -1
+mắt nhai
+  rotate: false
+  xy: 97, 5
+  size: 78, 56
+  orig: 100, 73
+  offset: 20, 16
+  index: -1
+mắt trố_L
+  rotate: false
+  xy: 3, 3
+  size: 91, 58
+  orig: 93, 60
+  offset: 1, 1
+  index: -1
+mắt trố_R
+  rotate: true
+  xy: 354, 73
+  size: 73, 54
+  orig: 75, 56
+  offset: 1, 1
+  index: -1
+mắt xoắn
+  rotate: false
+  xy: 2396, 1278
+  size: 65, 76
+  orig: 67, 78
+  offset: 1, 1
+  index: -1
+nước mắt
+  rotate: false
+  xy: 1456, 84
+  size: 110, 90
+  orig: 112, 92
+  offset: 1, 1
+  index: -1
+nứt
+  rotate: false
+  xy: 3, 229
+  size: 407, 399
+  orig: 409, 401
+  offset: 1, 1
+  index: -1
+phao rách
+  rotate: true
+  xy: 1704, 138
+  size: 296, 74
+  orig: 298, 76
+  offset: 1, 1
+  index: -1
+phao1
+  rotate: true
+  xy: 829, 166
+  size: 462, 135
+  orig: 464, 138
+  offset: 1, 1
+  index: -1
+phao2
+  rotate: true
+  xy: 2225, 120
+  size: 391, 55
+  orig: 393, 57
+  offset: 1, 1
+  index: -1
+quạt
+  rotate: true
+  xy: 413, 246
+  size: 382, 413
+  orig: 384, 415
+  offset: 1, 1
+  index: -1
+thuốc
+  rotate: true
+  xy: 411, 57
+  size: 137, 211
+  orig: 139, 213
+  offset: 1, 1
+  index: -1
+tiền
+  rotate: true
+  xy: 2353, 455
+  size: 181, 109
+  orig: 182, 110
+  offset: 1, 1
+  index: -1
+tóc
+  rotate: true
+  xy: 214, 6
+  size: 220, 137
+  orig: 220, 137
+  offset: 0, 0
+  index: -1
+tóc cháy
+  rotate: false
+  xy: 2126, 1233
+  size: 267, 195
+  orig: 267, 196
+  offset: 0, 0
+  index: -1
+tấm ván
+  rotate: false
+  xy: 1798, 514
+  size: 552, 119
+  orig: 555, 121
+  offset: 2, 1
+  index: -1
+áo
+  rotate: true
+  xy: 967, 138
+  size: 76, 270
+  orig: 76, 272
+  offset: 0, 1
+  index: -1
+ống khói
+  rotate: true
+  xy: 1383, 1196
+  size: 812, 740
+  orig: 815, 742
+  offset: 1, 1
+  index: -1
+ống khói 2
+  rotate: true
+  xy: 1383, 437
+  size: 756, 412
+  orig: 758, 414
+  offset: 1, 1
+  index: -1

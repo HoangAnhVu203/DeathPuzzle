@@ -1,0 +1,272 @@
+
+nv nu lv6.png
+size: 1790,1801
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 997, 3
+  size: 210, 123
+  orig: 210, 123
+  offset: 0, 0
+  index: -1
+aonguc
+  rotate: false
+  xy: 1530, 1311
+  size: 251, 191
+  orig: 251, 191
+  offset: 0, 0
+  index: -1
+binhhoa
+  rotate: false
+  xy: 359, 377
+  size: 214, 455
+  orig: 214, 455
+  offset: 0, 0
+  index: -1
+blood
+  rotate: true
+  xy: 1122, 4
+  size: 209, 145
+  orig: 211, 146
+  offset: 1, 1
+  index: -1
+boom
+  rotate: true
+  xy: 575, 435
+  size: 397, 363
+  orig: 399, 363
+  offset: 1, 0
+  index: -1
+cangchan1
+  rotate: true
+  xy: 940, 685
+  size: 167, 375
+  orig: 167, 375
+  offset: 0, 0
+  index: -1
+cangchan2
+  rotate: true
+  xy: 932, 215
+  size: 218, 346
+  orig: 218, 346
+  offset: 0, 0
+  index: -1
+canhtay1
+  rotate: false
+  xy: 2, 2
+  size: 128, 188
+  orig: 128, 188
+  offset: 0, 0
+  index: -1
+canhtay2
+  rotate: false
+  xy: 1269, 8
+  size: 68, 205
+  orig: 68, 205
+  offset: 0, 0
+  index: -1
+chan1
+  rotate: false
+  xy: 1280, 218
+  size: 95, 276
+  orig: 95, 276
+  offset: 0, 0
+  index: -1
+chan2
+  rotate: false
+  xy: 1339, 496
+  size: 186, 356
+  orig: 186, 356
+  offset: 0, 0
+  index: -1
+chansau1
+  rotate: false
+  xy: 1401, 160
+  size: 97, 152
+  orig: 97, 152
+  offset: 0, 0
+  index: -1
+chansau2
+  rotate: true
+  xy: 1042, 527
+  size: 156, 216
+  orig: 157, 217
+  offset: 0, 1
+  index: -1
+chantruoc1
+  rotate: false
+  xy: 530, 205
+  size: 91, 170
+  orig: 91, 170
+  offset: 0, 0
+  index: -1
+chantruoc2
+  rotate: false
+  xy: 745, 203
+  size: 185, 230
+  orig: 185, 230
+  offset: 0, 0
+  index: -1
+co
+  rotate: false
+  xy: 773, 6
+  size: 222, 195
+  orig: 222, 195
+  offset: 0, 0
+  index: -1
+cuonlen
+  rotate: false
+  xy: 1475, 17
+  size: 95, 95
+  orig: 360, 422
+  offset: 102, 135
+  index: -1
+daumeo
+  rotate: true
+  xy: 1530, 834
+  size: 247, 248
+  orig: 247, 248
+  offset: 0, 0
+  index: -1
+dep1
+  rotate: false
+  xy: 1377, 314
+  size: 123, 95
+  orig: 123, 95
+  offset: 0, 0
+  index: -1
+dep2
+  rotate: true
+  xy: 1377, 411
+  size: 83, 142
+  orig: 83, 142
+  offset: 0, 0
+  index: -1
+duoimeo
+  rotate: true
+  xy: 1527, 399
+  size: 137, 215
+  orig: 137, 215
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: true
+  xy: 359, 193
+  size: 182, 94
+  orig: 182, 94
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: true
+  xy: 455, 197
+  size: 178, 73
+  orig: 178, 74
+  offset: 0, 1
+  index: -1
+eye3
+  rotate: false
+  xy: 1042, 440
+  size: 166, 75
+  orig: 166, 75
+  offset: 0, 0
+  index: -1
+eye4
+  rotate: true
+  xy: 1260, 517
+  size: 166, 76
+  orig: 167, 77
+  offset: 0, 0
+  index: -1
+mat
+  rotate: false
+  xy: 1502, 114
+  size: 286, 283
+  orig: 286, 283
+  offset: 0, 0
+  index: -1
+mounth1
+  rotate: false
+  xy: 1339, 117
+  size: 60, 99
+  orig: 60, 99
+  offset: 0, 0
+  index: -1
+mouth2
+  rotate: true
+  xy: 1339, 8
+  size: 104, 66
+  orig: 104, 66
+  offset: 0, 0
+  index: -1
+mouth3
+  rotate: true
+  xy: 1407, 8
+  size: 104, 66
+  orig: 104, 66
+  offset: 0, 0
+  index: -1
+tay1
+  rotate: false
+  xy: 623, 198
+  size: 120, 235
+  orig: 120, 235
+  offset: 0, 0
+  index: -1
+tay2
+  rotate: false
+  xy: 940, 445
+  size: 100, 238
+  orig: 100, 238
+  offset: 0, 0
+  index: -1
+than1
+  rotate: false
+  xy: 1530, 1504
+  size: 255, 295
+  orig: 255, 295
+  offset: 0, 0
+  index: -1
+than2
+  rotate: false
+  xy: 499, 4
+  size: 272, 191
+  orig: 273, 191
+  offset: 1, 0
+  index: -1
+thanmeo
+  rotate: false
+  xy: 132, 4
+  size: 365, 186
+  orig: 365, 186
+  offset: 0, 0
+  index: -1
+tocsau
+  rotate: false
+  xy: 2, 192
+  size: 355, 640
+  orig: 355, 640
+  offset: 0, 0
+  index: -1
+toctruoc
+  rotate: true
+  xy: 1527, 538
+  size: 294, 216
+  orig: 294, 216
+  offset: 0, 0
+  index: -1
+tu lv6-01-01
+  rotate: true
+  xy: 2, 854
+  size: 945, 1526
+  orig: 945, 1526
+  offset: 0, 0
+  index: -1
+tuixach
+  rotate: true
+  xy: 1530, 1083
+  size: 226, 249
+  orig: 226, 249
+  offset: 0, 0
+  index: -1

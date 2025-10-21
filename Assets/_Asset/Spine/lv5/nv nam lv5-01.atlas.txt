@@ -1,0 +1,293 @@
+
+nv nam lv5-01.png
+size: 2032,1359
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood
+  rotate: true
+  xy: 1002, 263
+  size: 391, 364
+  orig: 391, 365
+  offset: 0, 1
+  index: -1
+boom1
+  rotate: false
+  xy: 2, 758
+  size: 708, 599
+  orig: 708, 599
+  offset: 0, 0
+  index: -1
+cangchan1
+  rotate: true
+  xy: 1368, 186
+  size: 108, 238
+  orig: 108, 238
+  offset: 0, 0
+  index: -1
+cangchan2
+  rotate: false
+  xy: 1924, 697
+  size: 106, 231
+  orig: 106, 231
+  offset: 0, 0
+  index: -1
+canhtay1
+  rotate: true
+  xy: 573, 692
+  size: 64, 135
+  orig: 64, 135
+  offset: 0, 0
+  index: -1
+canhtay2
+  rotate: false
+  xy: 1303, 121
+  size: 59, 140
+  orig: 59, 140
+  offset: 0, 0
+  index: -1
+chan1
+  rotate: false
+  xy: 508, 32
+  size: 100, 214
+  orig: 101, 214
+  offset: 0, 0
+  index: -1
+chan2
+  rotate: true
+  xy: 1025, 44
+  size: 99, 208
+  orig: 99, 208
+  offset: 0, 0
+  index: -1
+chanbo1
+  rotate: false
+  xy: 1878, 1115
+  size: 135, 242
+  orig: 135, 242
+  offset: 0, 0
+  index: -1
+chanbo11
+  rotate: false
+  xy: 1716, 416
+  size: 135, 242
+  orig: 135, 242
+  offset: 0, 0
+  index: -1
+chanbo2
+  rotate: false
+  xy: 1787, 684
+  size: 135, 242
+  orig: 135, 242
+  offset: 0, 0
+  index: -1
+chanbo22
+  rotate: false
+  xy: 1853, 440
+  size: 135, 242
+  orig: 135, 242
+  offset: 0, 0
+  index: -1
+co
+  rotate: true
+  xy: 1452, 2
+  size: 101, 77
+  orig: 101, 77
+  offset: 0, 0
+  index: -1
+daubo
+  rotate: true
+  xy: 573, 263
+  size: 391, 427
+  orig: 391, 427
+  offset: 0, 0
+  index: -1
+denpin
+  rotate: false
+  xy: 1716, 263
+  size: 167, 151
+  orig: 169, 151
+  offset: 1, 0
+  index: -1
+duoibo
+  rotate: true
+  xy: 1713, 99
+  size: 162, 166
+  orig: 162, 166
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 818, 40
+  size: 205, 103
+  orig: 205, 103
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: false
+  xy: 610, 145
+  size: 230, 116
+  orig: 230, 116
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: false
+  xy: 1073, 145
+  size: 228, 116
+  orig: 229, 116
+  offset: 1, 0
+  index: -1
+eye4
+  rotate: false
+  xy: 842, 145
+  size: 229, 116
+  orig: 230, 116
+  offset: 1, 0
+  index: -1
+giay 1
+  rotate: true
+  xy: 1881, 94
+  size: 159, 98
+  orig: 159, 98
+  offset: 0, 0
+  index: -1
+giay2
+  rotate: false
+  xy: 1552, 38
+  size: 159, 97
+  orig: 159, 97
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 248
+  size: 569, 508
+  orig: 569, 509
+  offset: 0, 0
+  index: -1
+mat
+  rotate: false
+  xy: 1368, 296
+  size: 346, 362
+  orig: 346, 362
+  offset: 0, 0
+  index: -1
+matbo1
+  rotate: true
+  xy: 1878, 930
+  size: 183, 138
+  orig: 185, 138
+  offset: 2, 0
+  index: -1
+matbo2
+  rotate: true
+  xy: 1235, 42
+  size: 101, 56
+  orig: 103, 58
+  offset: 1, 1
+  index: -1
+mommui
+  rotate: true
+  xy: 1156, 656
+  size: 257, 94
+  orig: 257, 95
+  offset: 0, 0
+  index: -1
+mouth2
+  rotate: false
+  xy: 1873, 10
+  size: 153, 82
+  orig: 153, 82
+  offset: 0, 0
+  index: -1
+mouth3
+  rotate: false
+  xy: 1713, 6
+  size: 158, 91
+  orig: 158, 91
+  offset: 0, 0
+  index: -1
+mouth4
+  rotate: false
+  xy: 1293, 7
+  size: 157, 96
+  orig: 157, 96
+  offset: 0, 0
+  index: -1
+munguoi
+  rotate: false
+  xy: 712, 656
+  size: 442, 257
+  orig: 442, 257
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 288, 53
+  size: 218, 193
+  orig: 218, 193
+  offset: 0, 0
+  index: -1
+tay1
+  rotate: true
+  xy: 1364, 105
+  size: 79, 186
+  orig: 79, 186
+  offset: 0, 0
+  index: -1
+tay2
+  rotate: false
+  xy: 1885, 255
+  size: 98, 183
+  orig: 98, 183
+  offset: 0, 0
+  index: -1
+thanbo
+  rotate: false
+  xy: 712, 915
+  size: 632, 442
+  orig: 632, 442
+  offset: 0, 0
+  index: -1
+thantruc1
+  rotate: true
+  xy: 2, 10
+  size: 236, 284
+  orig: 236, 285
+  offset: 0, 1
+  index: -1
+thantruc2
+  rotate: true
+  xy: 1252, 694
+  size: 219, 90
+  orig: 221, 90
+  offset: 1, 0
+  index: -1
+thucan
+  rotate: false
+  xy: 610, 23
+  size: 206, 120
+  orig: 206, 120
+  offset: 0, 0
+  index: -1
+toc
+  rotate: false
+  xy: 1346, 660
+  size: 439, 266
+  orig: 439, 266
+  offset: 0, 0
+  index: -1
+vetinh
+  rotate: true
+  xy: 1346, 928
+  size: 429, 530
+  orig: 429, 530
+  offset: 0, 0
+  index: -1
+vubo
+  rotate: true
+  xy: 1608, 137
+  size: 157, 103
+  orig: 157, 103
+  offset: 0, 0
+  index: -1
