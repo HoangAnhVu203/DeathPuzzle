@@ -8,4 +8,6 @@ public class PlayGame : MonoBehaviour
     {
         UIManager.Instance.OpenUI<CanvasGamePlay>();
     }
+
+
 }

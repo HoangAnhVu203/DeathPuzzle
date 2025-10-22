@@ -6,30 +6,17 @@ using UnityEngine;
 public class VictoryManager : UICanvas
 {
     public GameObject CanvasSetting;
-    public GameObject window;          
-    public SkeletonGraphic previewSpine;
     
     public GameObject canvasLV1;
     public GameObject canvasLV2;
-    public GameObject canvasLV3;
+    public GameObject canvasLV7;
+    public GameObject canvasLV9;
+    public GameObject panelWin;
 
     public void SettingBTN()
     {
         UIManager.Instance.OpenUI<CanvasSetting>();
-        //CanvasSetting.SetActive(true);
-    }
-
-    public void Show(Sprite deathSprite = null, string spineAnim = null, bool loop = false)
-    {
-        window.SetActive(true);
-
-        if (previewSpine)
-        {
-            bool useSpine = !string.IsNullOrEmpty(spineAnim);
-            previewSpine.gameObject.SetActive(useSpine);
-            if (useSpine)
-                previewSpine.AnimationState.SetAnimation(0, spineAnim, loop);
-        }
+        
     }
 
     public void CloseUI()
@@ -41,11 +28,20 @@ public class VictoryManager : UICanvas
     {
         canvasLV1.SetActive(false);
         canvasLV2.SetActive(true);
+        panelWin.SetActive(false);
     }
 
-    public void NextLv3()
+    public void NextLv7()
     {
         canvasLV2.SetActive(false);
-        canvasLV3.SetActive(true);
+        canvasLV7.SetActive(true);
+        panelWin.SetActive(false);
+    }
+
+    public void NextLV9()
+    {
+        canvasLV7.SetActive(false);
+        canvasLV9.SetActive(true);
+        panelWin.SetActive(false);
     }
 }

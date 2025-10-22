@@ -3,29 +3,31 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Spine.Unity;
+using System.Collections;
 
 [RequireComponent(typeof(RawImage))]
 public class EraseItem : MonoBehaviour, IPointerDownHandler, IDragHandler
 {
-    
-    [SerializeField] RawImage targetImage;          
-    [SerializeField] Camera uiCamera;               
-    [SerializeField] GameObject deactivateTarget;   
+    [SerializeField] RawImage targetImage;
+    [SerializeField] Camera uiCamera;
+    [SerializeField] GameObject deactivateTarget;
     [SerializeField] SkeletonGraphic Character;
     [SerializeField] string animName;
     [SerializeField] GameObject Object;
+    [SerializeField] GameObject panelWin;
 
-    
-    [SerializeField] int brushRadius = 16;          
-    [SerializeField, Range(0, 1f)] float alphaThreshold = 0.5f; 
+    [SerializeField] int brushRadius = 16;
+    [SerializeField, Range(0, 1f)] float alphaThreshold = 0.5f;
     [SerializeField, Range(0, 1f)] float completeThreshold = 0.80f;
-    
 
-    Texture2D tex;                  
-    Color32[] buffer; 
+    float fallDistance = 500f;
+    float fallDuration = 1.5f;
+    float fallEasePower = 2f;
+
+    Texture2D tex;
+    Color32[] buffer;
     int w, h;
 
-    
     HashSet<int> erasable = new HashSet<int>();
     bool[] erased;
     int erasableCount, erasedCount;
@@ -94,8 +96,8 @@ public class EraseItem : MonoBehaviour, IPointerDownHandler, IDragHandler
                 if (dx * dx + dy * dy > r2) continue;
 
                 int i = row + x;
-                if (!erasable.Contains(i)) continue;   
-                if (erased[i]) continue;              
+                if (!erasable.Contains(i)) continue;
+                if (erased[i]) continue;
 
                 var c = buffer[i]; c.a = 0; buffer[i] = c;
                 erased[i] = true;
@@ -109,37 +111,54 @@ public class EraseItem : MonoBehaviour, IPointerDownHandler, IDragHandler
             tex.SetPixels32(buffer);
             tex.Apply(false);
 
-            // đạt % -> tắt object
             if (!finishedOnce && erasableCount > 0 && erasedCount >= completeThreshold * erasableCount)
             {
                 finishedOnce = true;
-
-                if (Character) Character.AnimationState.SetAnimation(0, animName, false);
+                if (Character)
+                {
+                    var entry = Character.AnimationState.SetAnimation(0, animName, false);
+                    if (entry != null)
+                    {
+                        entry.Complete += _ =>
+                        {
+                            Character.StartCoroutine(ShowPanelWinAfterDelay(1f));
+                        };
+                    }
+                }
 
                 var rectChar = Character ? Character.GetComponent<RectTransform>() : null;
-                if (rectChar) Character.StartCoroutine(FallDownUI(rectChar, 500f, 0.3f)); 
+                if (rectChar) Character.StartCoroutine(FallDownUI(rectChar, fallDistance, fallDuration, fallEasePower));
                 Object.SetActive(true);
-
                 deactivateTarget.SetActive(false);
             }
         }
     }
 
-    static System.Collections.IEnumerator FallDownUI(RectTransform rt, float distance, float duration)
+    IEnumerator ShowPanelWinAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (panelWin != null)
+        {
+            panelWin.SetActive(true);
+        }
+    }
+
+    static IEnumerator FallDownUI(RectTransform rt, float distance, float duration, float easePower = 2f)
     {
         Vector2 from = rt.anchoredPosition;
         Vector2 to = from + new Vector2(0f, -Mathf.Abs(distance));
         float t = 0f;
+
         while (t < duration)
         {
             t += Time.deltaTime;
-            float k = t / duration;
-            float eased = 1f - (1f - k) * (1f - k);
+            float k = Mathf.Clamp01(t / duration);
+            
+            float eased = 1f - Mathf.Pow(1f - k, Mathf.Max(1f, easePower));
             rt.anchoredPosition = Vector2.LerpUnclamped(from, to, eased);
             yield return null;
         }
+
         rt.anchoredPosition = to;
     }
-
-
 }
