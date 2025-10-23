@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
-using Spine;                 // <-- thêm dòng này
+using Spine;
 using Spine.Unity;
 using System.Collections;
 
@@ -9,18 +9,20 @@ public class DragSpine : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     public RectTransform targetZone;
     public RectTransform standPoint;
     public GameObject bloodVFX;
+    public GameObject winPanel;    
 
+    [Header("Spine Settings")]
     public SkeletonGraphic cat;
     public string successAnim = "meo4";
-    public bool successLoop = false;    
+    public bool successLoop = false;
     public string idleAnim = "meo5";
     public GameObject ClearObj;
     public bool lockRootMotionOnSuccess = true;
 
     public Canvas rootCanvas;
 
-    
-    public SkeletonGraphic otherSpine;   
+    [Header("Other Spine")]
+    public SkeletonGraphic otherSpine;
     public string otherAnimName;
 
     float snapDuration = 0.15f;
@@ -61,7 +63,11 @@ public class DragSpine : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
     public void OnEndDrag(PointerEventData e)
     {
-        if (!targetZone) { StartCoroutine(Snap(rect.anchoredPosition, startPos, returnDuration)); return; }
+        if (!targetZone)
+        {
+            StartCoroutine(Snap(rect.anchoredPosition, startPos, returnDuration));
+            return;
+        }
 
         var cam = (rootCanvas && rootCanvas.renderMode == RenderMode.ScreenSpaceOverlay) ? null : e.pressEventCamera;
         bool inside = RectTransformUtility.RectangleContainsScreenPoint(targetZone, e.position, cam);
@@ -70,27 +76,31 @@ public class DragSpine : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         {
             successState = true;
 
-            
+            // 🔹 Khi thả đúng vị trí, phát animation thành công
             var entry = cat.AnimationState.SetAnimation(0, successAnim, successLoop);
             if (entry != null)
             {
                 entry.Complete += _ =>
                 {
-                    
+                    // 🔸 Khi cat anim xong -> otherSpine thực hiện anim
                     if (otherSpine)
                     {
                         var otherEntry = otherSpine.AnimationState.SetAnimation(0, otherAnimName, false);
-                        
+
                         if (otherEntry != null)
-                            otherEntry.Complete += __ => bloodVFX.SetActive(true);
+                        {
+                            otherEntry.Complete += __ =>
+                            {
+                                if (bloodVFX) bloodVFX.SetActive(true);
+                                if (winPanel) StartCoroutine(ShowWinPanelAfterDelay(0.7f));
+                            };
+                        }
                     }
 
-                    
+                    // 🔸 Sau khi cat anim xong -> trở về idle
                     cat.AnimationState.SetAnimation(0, idleAnim, true);
                 };
             }
-
-
 
             if (ClearObj) ClearObj.SetActive(false);
 
@@ -108,8 +118,19 @@ public class DragSpine : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     IEnumerator Snap(Vector2 from, Vector2 to, float dur)
     {
         float t = 0f;
-        while (t < dur) { t += Time.deltaTime; rect.anchoredPosition = Vector2.Lerp(from, to, t / dur); yield return null; }
+        while (t < dur)
+        {
+            t += Time.deltaTime;
+            rect.anchoredPosition = Vector2.Lerp(from, to, t / dur);
+            yield return null;
+        }
         rect.anchoredPosition = to;
+    }
+
+    IEnumerator ShowWinPanelAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (winPanel) winPanel.SetActive(true);
     }
 
     void LateUpdate()
@@ -117,7 +138,11 @@ public class DragSpine : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         if (successState && lockRootMotionOnSuccess && cat && cat.Skeleton != null)
         {
             var root = cat.Skeleton.RootBone;
-            if (root != null) { root.X = 0f; root.Y = 0f; }
+            if (root != null)
+            {
+                root.X = 0f;
+                root.Y = 0f;
+            }
             cat.Skeleton.UpdateWorldTransform();
         }
     }

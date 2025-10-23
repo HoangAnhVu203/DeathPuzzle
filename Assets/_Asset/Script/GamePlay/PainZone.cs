@@ -67,6 +67,25 @@ public class PainZone : MonoBehaviour, IPointerDownHandler, IDragHandler
         fired = false;
     }
 
+    private void Start()
+    {
+        if (panelWin == null)
+        {
+            // tìm trong toàn bộ scene, kể cả inactive
+            var allObjects = Resources.FindObjectsOfTypeAll<GameObject>();
+            foreach (var obj in allObjects)
+            {
+                if (obj.name == "WinPanel")
+                {
+                    panelWin = obj;
+                    break;
+                }
+            }
+
+           
+        }
+    }
+
     public void OnPointerDown(PointerEventData e) => RevealAt(e.position);
     public void OnDrag(PointerEventData e) => RevealAt(e.position);
 
@@ -157,7 +176,7 @@ public class PainZone : MonoBehaviour, IPointerDownHandler, IDragHandler
 
     private IEnumerator ShowAfterAnim()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         if (bloodVFX) bloodVFX.SetActive(true);
         if (panelWin) panelWin.SetActive(true);
     }

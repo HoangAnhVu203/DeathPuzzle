@@ -4,8 +4,8 @@ using Spine.Unity;
 public class DropZone : MonoBehaviour
 {
     public RectTransform zone3;        // vùng nước (RectTransform trên Canvas)
-    public float gravity = -2500f;     // px/giây^2 (tuỳ Canvas Scale)
-    public float maxFallSpeed = -3500f;
+    public float gravity = -250f;     // px/giây^2 (tuỳ Canvas Scale)
+    public float maxFallSpeed = -350f;
 
     public SkeletonGraphic spine;      // SkeletonGraphic của nhân vật
     public string fallAnim = "fall";   // anim khi đang rơi (nếu có)

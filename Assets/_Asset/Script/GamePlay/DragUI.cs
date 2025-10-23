@@ -33,7 +33,7 @@ public class DragUIWithPulseControl : MonoBehaviour, IBeginDragHandler, IDragHan
     private Vector2 startPos;
     private Vector3 baseScale;
     private bool isDragging = false;
-    private bool atStartPosition = true; // 🔹 chỉ scale khi object ở vị trí ban đầu
+    private bool atStartPosition = true; // chỉ scale khi object ở vị trí ban đầu
 
     void Awake()
     {
@@ -94,6 +94,7 @@ public class DragUIWithPulseControl : MonoBehaviour, IBeginDragHandler, IDragHan
                 obj1.SetActive(false);
                 obj2.SetActive(true);
                 drop.enabled = true;
+                
             }
 
             StartCoroutine(ResetImage());
@@ -145,7 +146,7 @@ public class DragUIWithPulseControl : MonoBehaviour, IBeginDragHandler, IDragHan
 
     private IEnumerator WaitforVic()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2.3f);
         winPanel.SetActive(true);
     }
 }

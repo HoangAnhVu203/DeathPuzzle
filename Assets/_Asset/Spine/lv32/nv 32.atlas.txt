@@ -1,0 +1,167 @@
+
+nv 32.png
+size: 2005,461
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+canhtay1
+  rotate: true
+  xy: 337, 4
+  size: 109, 266
+  orig: 109, 266
+  offset: 0, 0
+  index: -1
+canhtay2
+  rotate: true
+  xy: 2, 5
+  size: 85, 206
+  orig: 85, 206
+  offset: 0, 0
+  index: -1
+chan1
+  rotate: false
+  xy: 1522, 197
+  size: 223, 262
+  orig: 223, 262
+  offset: 0, 0
+  index: -1
+chan2
+  rotate: true
+  xy: 1257, 3
+  size: 177, 262
+  orig: 177, 262
+  offset: 0, 0
+  index: -1
+dui1
+  rotate: false
+  xy: 649, 149
+  size: 219, 310
+  orig: 220, 310
+  offset: 1, 0
+  index: -1
+dui2
+  rotate: false
+  xy: 1043, 160
+  size: 212, 299
+  orig: 212, 299
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 605, 43
+  size: 124, 70
+  orig: 124, 70
+  offset: 0, 0
+  index: -1
+eye2
+  rotate: true
+  xy: 1090, 34
+  size: 124, 70
+  orig: 124, 70
+  offset: 0, 0
+  index: -1
+eye3
+  rotate: true
+  xy: 1162, 34
+  size: 124, 70
+  orig: 124, 70
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 1765, 244
+  size: 238, 215
+  orig: 248, 215
+  offset: 8, 0
+  index: -1
+giay1
+  rotate: true
+  xy: 913, 22
+  size: 134, 175
+  orig: 134, 175
+  offset: 0, 0
+  index: -1
+giay2
+  rotate: true
+  xy: 752, 2
+  size: 145, 159
+  orig: 145, 159
+  offset: 0, 0
+  index: -1
+longmay
+  rotate: false
+  xy: 627, 8
+  size: 123, 33
+  orig: 123, 33
+  offset: 0, 0
+  index: -1
+maytinhbang
+  rotate: false
+  xy: 1765, 15
+  size: 214, 227
+  orig: 214, 227
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 605, 7
+  size: 34, 20
+  orig: 35, 20
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: true
+  xy: 270, 16
+  size: 74, 45
+  orig: 76, 46
+  offset: 1, 0
+  index: -1
+mouth3
+  rotate: true
+  xy: 210, 11
+  size: 79, 58
+  orig: 81, 59
+  offset: 1, 0
+  index: -1
+napnao
+  rotate: false
+  xy: 315, 115
+  size: 332, 344
+  orig: 332, 344
+  offset: 0, 0
+  index: -1
+noise
+  rotate: false
+  xy: 315, 92
+  size: 20, 21
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+tay1
+  rotate: true
+  xy: 1257, 182
+  size: 277, 263
+  orig: 277, 263
+  offset: 0, 0
+  index: -1
+tay2
+  rotate: false
+  xy: 1521, 14
+  size: 242, 166
+  orig: 242, 166
+  offset: 0, 0
+  index: -1
+than1
+  rotate: false
+  xy: 2, 92
+  size: 311, 367
+  orig: 311, 368
+  offset: 0, 0
+  index: -1
+thanduoi
+  rotate: true
+  xy: 870, 158
+  size: 301, 171
+  orig: 301, 171
+  offset: 0, 0
+  index: -1

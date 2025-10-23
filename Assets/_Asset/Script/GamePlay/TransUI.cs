@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(RectTransform))]
+//Script hoat dong khi obj dc active
 public class TransUI : MonoBehaviour
 {
     public Vector2 targetAnchoredPos = Vector2.zero;  
